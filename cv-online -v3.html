@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="resume2.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<title>Mi Nombre</title>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="navegacion" id="nav">
+			<ul class="menu">
+				<li><a href=#nav>Inicio</a></li>
+				<li><a href=#soy>Quien soy</a></li>
+				<li><a href=#T1>Mis trabajos</a></li>
+				<li><a href=#contacto>Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Fenando TAPIA</h1>
+	</section>
+	<div class="foto">
+		<img src="media/foto-Fer-2011.jpg">
+	</div>
+	<div class="animated-text">
+		<div class="line">Diseño Web</div>
+		<div class="line">Javascript </div>
+		<div class="line">HTML</div>
+		<div class="line">CSS</div>
+		<div class="line">REACT</div>
+	</div><br><br><br><br><br><br><br>
+	<div class="soy">
+		<p>
+		<h2 id="soy">UN POCO DE MI </h2>
+		</p><br><br><br>
+		<p>Hola Soy desarrollador Front End y Administrador de Aulas Virtuales</p><br>
+		<p>Tambien tengo experiencia en manejo Software Empresarial SAP y JD Eduards</p><br>
+		<p>He trabajado más de 16 años en una Empresa Agroalimentaria de 1° nivel em Zona Norte de Argentina.</p> <br>
+		<p>Además tengo experencia docente en el Nivel Medio y Universitario dictanto diferentes materias como Informática, Marketing Digital, etc.</p><br>
+		<p>Se usar y configurar Tableros de Mando con Power BI y Microstrategy</p> <br>
+	</div><br><button><a href=#nav>Inicio</a></button><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class="habilidades">
+	    <div class="nombres">
+		  <label for="skill-1">Programación web: PHP, HTML-CSS: </label>   <br>
+		  <label for="skill-2">Creación de Tableros de Mando con Power BI: </label>   <br>
+		  <label for="skill-3">Manejo de Sistemas CMS (Wordpress, Blogger,etc.): </label>   
+	    </div>
+	   <div class="valores">
+	      <progress id="skill-1" value="8.5" max="10"><strong>Progreso:</strong> 8,5/10</progress> <br>
+		  <progress id="skill-2" value="7.0" max="10"><strong>Progreso:</strong> 7,0/10</progress>  <br>
+		  <progress id="skill-3" value="9.0" max="10"><strong>Progreso:</strong> 9,0/10</progress>
+        </div>
+    </div>
+	<div class="servicios">
+		<div class="T1">
+			<h3 id="T1">TRABAJOS REALIZADOS</h3> <br><br>
+			<img src="Media/web1.jpg">
+			<img src="Media/web2.jpg">
+			<img src="Media/web3.jpg">
+			<img src="Media/web4.jpg">
+		</div>
+		<button><a href=#nav>Inicio</a></button>
+		<div id="contacto">
+			<section class="form_wrap">
+				<section class="cantact_info">
+					<section class="info_title">
+						<span class="fa fa-user-circle"></span>
+						<h3>INFORMACION<br>DE CONTACTO</h3>
+					</section>
+					<section class="info_items">
+						<p><span class="fa fa-envelope"></span> email@gmail.com</p>
+						<p><span class="fa fa-mobile"></span> +010101010101010101</p>
+					</section>
+				</section>
+				<form action="enviar.php" method="post" class="form_contact">
+					<h2>Contactarme</h2>
+					<div class="user_info">
+						<label for="names">Nombres *</label>
+						<input type="text" id="names" name="nombre" required>
+						<label for="phone">Telefono / Celular</label>
+						<input type="text" id="phone" name="telefono">
+						<label for="email">Correo electronico *</label>
+						<input type="text" id="email" name="correo" required>
+						<label for="mensaje">Mensaje *</label>
+						<textarea id="mensaje" name="mensaje" required></textarea>
+						<input type="submit" value="Enviar Mensaje" id="btnSend">
+					</div>
+				</form>
+			</section>
+		</div>
+</body>
+
+</html>
