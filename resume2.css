@@ -41,7 +41,7 @@ body {
 }
 
 .menu li a:hover {
-	color: rgb(250, 0, 83);
+	color: rgb(73, 167, 196);
 	transition: all .3s;
 }
 
